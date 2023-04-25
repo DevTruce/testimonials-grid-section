@@ -33,6 +33,26 @@
     }
   }
 
+  &__text--1,
+  &__text--1-dark {
+    position: relative;
+    z-index: 2;
+    margin: 2rem 0;
+    font-size: $font-large;
+    font-weight: 600;
+  }
+  &__text--2,
+  &__text--2-dark {
+    opacity: 70%;
+  }
+
+  &__text--1-dark {
+    color: $color-secondary;
+  }
+  &__text--2-dark {
+    color: $color-secondary;
+  }
+
   &--1 {
     background-color: $color-primary;
 
@@ -52,17 +72,6 @@
 
       background-image: url(../imgs/bg-pattern-quotation.svg);
       background-repeat: no-repeat;
-    }
-
-    &__text--1 {
-      position: relative;
-      z-index: 2;
-      margin: 2rem 0;
-      font-size: $font-large;
-      font-weight: 600;
-    }
-    &__text--2 {
-      opacity: 70%;
     }
   }
 

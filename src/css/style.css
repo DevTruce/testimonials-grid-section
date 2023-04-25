@@ -52,6 +52,22 @@ body {
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.5);
 }
+.card__text--1, .card__text--1-dark {
+  position: relative;
+  z-index: 2;
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.card__text--2, .card__text--2-dark {
+  opacity: 70%;
+}
+.card__text--1-dark {
+  color: hsl(217, 19%, 35%);
+}
+.card__text--2-dark {
+  color: hsl(217, 19%, 35%);
+}
 .card--1 {
   background-color: hsl(263, 55%, 52%);
   grid-row: 1/2;
@@ -69,16 +85,6 @@ body {
   left: 65%;
   background-image: url(../imgs/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
-}
-.card--1__text--1 {
-  position: relative;
-  z-index: 2;
-  margin: 2rem 0;
-  font-size: 2rem;
-  font-weight: 600;
-}
-.card--1__text--2 {
-  opacity: 70%;
 }
 .card--2 {
   background-color: hsl(217, 19%, 35%);
