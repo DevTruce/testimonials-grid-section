@@ -16,7 +16,26 @@ $font-large: 2rem;
 
 //////////////////////////////////////////////////
 // MEDIA QUERY MANAGER
-// The designs were created to the following widths:
 
-// - Mobile: 375px
-// - Desktop: 1440px
+@mixin respond($breakpoint) {
+  @if $breakpoint == small {
+    @media only screen and (max-width: 45.25em) {
+      // < 724px
+      @content;
+    }
+  }
+
+  @if $breakpoint == medium {
+    @media only screen and (max-width: 56.25em) {
+      // < 900px
+      @content;
+    }
+  }
+
+  @if $breakpoint == large {
+    @media only screen and (max-width: 70.25em) {
+      // < 1124px
+      @content;
+    }
+  }
+}

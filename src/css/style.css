@@ -10,6 +10,21 @@ html {
   font-size: 62.5%;
   box-sizing: inherit;
 }
+@media only screen and (max-width: 70.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media only screen and (max-width: 45.25em) {
+  html {
+    font-size: 62.5%;
+  }
+}
 
 body {
   min-height: 100vh;
@@ -26,11 +41,25 @@ body {
   align-content: center;
   grid-gap: 3rem;
 }
+@media only screen and (max-width: 45.25em) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 .card {
+  transition: transform 450ms;
   padding: 3rem;
   border-radius: 1rem;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+@media only screen and (max-width: 45.25em) {
+  .card {
+    width: 32.7rem;
+  }
 }
 .card__header {
   display: flex;
@@ -48,6 +77,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.card__username--dark {
+  color: hsl(217, 19%, 35%);
+}
 .card__username span {
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.5);
@@ -60,6 +92,7 @@ body {
   font-weight: 600;
 }
 .card__text--2, .card__text--2-dark {
+  line-height: 1.4;
   opacity: 70%;
 }
 .card__text--1-dark {
@@ -67,6 +100,9 @@ body {
 }
 .card__text--2-dark {
   color: hsl(217, 19%, 35%);
+}
+.card:hover, .card:focus {
+  transform: scale(1.1);
 }
 .card--1 {
   background-color: hsl(263, 55%, 52%);
@@ -105,6 +141,10 @@ body {
   background-color: hsl(219, 29%, 14%);
   grid-row: 2/3;
   grid-column: 2/4;
+}
+
+.verified-dark {
+  color: rgba(72, 85, 106, 0.5) !important;
 }
 
 /*# sourceMappingURL=style.css.map */

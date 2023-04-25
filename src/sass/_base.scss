@@ -10,6 +10,18 @@
 html {
   font-size: 62.5%; // 1 rem = 10px
   box-sizing: inherit;
+
+  @include respond(large) {
+    font-size: 50%;
+  }
+
+  @include respond(medium) {
+    font-size: 40%;
+  }
+
+  @include respond(small) {
+    font-size: 62.5%;
+  }
 }
 
 body {
@@ -31,4 +43,11 @@ body {
   align-content: center;
 
   grid-gap: 3rem;
+
+  @include respond(small) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
