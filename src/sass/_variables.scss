@@ -18,6 +18,20 @@ $font-large: 2rem;
 // MEDIA QUERY MANAGER
 
 @mixin respond($breakpoint) {
+  @if $breakpoint == tiny {
+    @media only screen and (max-width: 21em) {
+      // < 336px
+      @content;
+    }
+  }
+
+  @if $breakpoint == verysmall {
+    @media only screen and (max-width: 26.5em) {
+      // < 424px
+      @content;
+    }
+  }
+
   @if $breakpoint == small {
     @media only screen and (max-width: 45.25em) {
       // < 724px

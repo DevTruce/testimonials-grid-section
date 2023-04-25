@@ -92,6 +92,10 @@
 
       background-image: url(../imgs/bg-pattern-quotation.svg);
       background-repeat: no-repeat;
+
+      @include respond(tiny) {
+        left: 20rem;
+      }
     }
   }
 

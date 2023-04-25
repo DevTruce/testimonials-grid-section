@@ -25,6 +25,16 @@ html {
     font-size: 62.5%;
   }
 }
+@media only screen and (max-width: 26.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 21em) {
+  html {
+    font-size: 40%;
+  }
+}
 
 body {
   min-height: 100vh;
@@ -124,6 +134,11 @@ body {
   left: 65%;
   background-image: url(../imgs/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
+}
+@media only screen and (max-width: 21em) {
+  .card--1::before {
+    left: 20rem;
+  }
 }
 .card--2 {
   background-color: hsl(217, 19%, 35%);

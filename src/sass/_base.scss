@@ -22,6 +22,14 @@ html {
   @include respond(small) {
     font-size: 62.5%;
   }
+
+  @include respond(verysmall) {
+    font-size: 50%;
+  }
+
+  @include respond(tiny) {
+    font-size: 40%;
+  }
 }
 
 body {
