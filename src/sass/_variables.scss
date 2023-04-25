@@ -1,8 +1,22 @@
 //////////////////////////////////////////////////
 // COLORS
+$color-primary: hsl(263, 55%, 52%);
+$color-secondary: hsl(217, 19%, 35%);
+$color-tertiary: hsl(219, 29%, 14%);
+
+$color-white: hsl(0, 0%, 100%);
+$color-grey--1: hsl(0, 0%, 81%);
+$color-grey--2: hsl(210, 46%, 95%);
 
 //////////////////////////////////////////////////
 // FONTS
+$font-small: 1.1rem;
+$font-medium: 1.3rem;
+$font-large: 2rem;
 
 //////////////////////////////////////////////////
 // MEDIA QUERY MANAGER
+// The designs were created to the following widths:
+
+// - Mobile: 375px
+// - Desktop: 1440px
