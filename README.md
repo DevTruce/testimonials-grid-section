@@ -145,7 +145,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Email: [DevTruce@Gmail.com]()
 
-Discord: [Xzypher#9999]()
+Discord: [xzypher.]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
