@@ -1,0 +1,41 @@
+{
+  "name": "testimonials-grid-section",
+  "version": "1.0.0",
+  "description": "fem challenge",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass src/sass/main.scss src/css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "sass src/sass/main.scss src/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.comp.css -o src/css/style.prefix.css",
+    "compress:css": "sass src/css/style.prefix.css src/css/style.css --style compressed",
+    "build": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevTruce/testimonials-grid-section.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss"
+  ],
+  "author": "Truce R",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "live-server": "^1.1.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.61.0"
+  },
+  "browserslist": [
+    "last 10 version"
+  ],
+  "bugs": {
+    "url": "https://github.com/DevTruce/testimonials-grid-section/issues"
+  },
+  "homepage": "https://github.com/DevTruce/testimonials-grid-section#readme"
+}
