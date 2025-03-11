@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DevTruce/testimonials-grid-section">
-    <img src="src/imgs/favicon-32x32.png" alt="Logo" width="80" height="80">
+    <img src="images/favicon-32x32.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Testimonials Grid Section</h3>
@@ -68,7 +68,7 @@ Discord: [xzypher.]()
 
 <!-- ## Project ## -->
 
-[product-screenshot]: src/imgs/project-view.png
+[product-screenshot]: images/project-view.png
 [product-link]: https://devtruce.github.io/testimonials-grid-section/
 
 <!-- ## Tech & Tools ## -->
