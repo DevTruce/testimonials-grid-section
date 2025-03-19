@@ -37,7 +37,8 @@
 
 - [![HTML5][html5-icon]][html5-link]
 - [![CSS3][css3-icon]][css3-link]
-- [![SASS][sass-icon]][sass-link]
+- [![TAILWIND][tailwind-icon]][tailwind-link]
+- [![JavaScript][JavaScript-icon]][JavaScript-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,10 +77,12 @@ Discord: [xzypher.]()
 
 [html5-link]: https://html-icon/
 [css3-link]: https://css3-icon/
-[sass-link]: https://sass-lang.com/
+[tailwind-link]: https://tailwindcss.com/
+[javascript-link]: https://www.javascript-icon/
 
 <!-- icons -->
 
 [html5-icon]: https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white
 [css3-icon]: https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white
-[sass-icon]: https://img.shields.io/badge/SASS-AA77FF?style=for-the-badge&logo=SASS&logoColor=white
+[tailwind-icon]: https://img.shields.io/badge/tailwind-3B82F6?style=for-the-badge&logo=tailwindcss&logoColor=white
+[javascript-icon]: https://img.shields.io/badge/Javascript-FCE22A?style=for-the-badge&logo=javascript&logoColor=black
