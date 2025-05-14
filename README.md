@@ -18,7 +18,7 @@
 <h3 align="center">Testimonials Grid Section</h3>
 
   <p align="center">
-    A clean, responsive testimonials grid layout.
+    clean, responsive testimonials grid layout.
     <br />
     <br />
     <a href="https://devtruce.github.io/testimonials-grid-section/" target="_blank">View Demo</a>
